@@ -1,0 +1,18 @@
+baseURL = 'https://www.golanginterview.dev/'
+languageCode = 'en-us'
+title = 'GolangInterview.dev'
+
+copyright = "© GolangInterview.dev 2023"
+
+enableRobotsTXT = true
+
+[author]
+name = "Lane Wagner"
+
+[params]
+title = "GolangInterview.dev"
+description = "Golang Interview Questions and Answers"
+
+dateFormat = "2006-01-02"
+
+hideUntranslated = true
