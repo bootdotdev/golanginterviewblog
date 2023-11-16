@@ -12,7 +12,7 @@ imageAlts:
 
 If you're preparing for a Golang interview, these 25 questions will give you the practice you need to hit the ground running on the technical portion. You need to have already learned the language and (hopefully) have built projects with it, but these questions are designed refresh your memory and expand your knowledge on some of the more esoteric parts of the language.
 
-*Cramming practice interview questions is not a substitwute for spending the months it takes to learn it.*
+*Cramming practice interview questions is not a substitute for spending the months it takes to learn it.*
 
 As someone who has hired several Go developers, I handpicked these questions (and give you my answers) because I think they are the kinds of questions that are most likely to come up in your interviews. You'll notice that the questions are open-ended. This is intentional. It's not about memorizing answers, it's about understanding the concepts and being able to explain them in your own words.
 
@@ -326,7 +326,7 @@ func main() {
 }
 ```
 
-In this code snippet, two goroutines increment a shared `counter` variable concurrently, leading to a race condition. Using a mutex, atmoic value, or channel to synchronize access to `counter` can prevent this.
+In this code snippet, two goroutines increment a shared `counter` variable concurrently, leading to a race condition. Using a mutex, atomic value, or channel to synchronize access to `counter` can prevent this.
 
 #### 5. How would you represent a "set" data structure in Go?
 
