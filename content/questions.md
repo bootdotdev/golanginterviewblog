@@ -326,7 +326,7 @@ func main() {
 }
 ```
 
-In this code snippet, two goroutines increment a shared `counter` variable concurrently, leading to a race condition. Using a mutex, atmoic value, or channel to synchronize access to `counter` can prevent this.
+In this code snippet, two goroutines increment a shared `counter` variable concurrently, leading to a race condition. Using a mutex, atomic value, or channel to synchronize access to `counter` can prevent this.
 
 #### 5. How would you represent a "set" data structure in Go?
 
